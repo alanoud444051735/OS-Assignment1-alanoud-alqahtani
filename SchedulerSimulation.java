@@ -150,6 +150,8 @@ class Process implements Runnable {
 }
 
 public class SchedulerSimulation {
+    private static int contextSwitchCount = 0; // Counts each process dispatch to the CPU
+
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
@@ -244,6 +246,8 @@ public class SchedulerSimulation {
             }
             System.out.println(Colors.BRIGHT_WHITE + "]" + Colors.RESET);
             System.out.println(Colors.BOLD + Colors.MAGENTA + "└" + "─".repeat(79) + Colors.RESET + "\n");
+
+            contextSwitchCount++; // A new process is starting its CPU execution
             
             // Start the thread, which will run the process for one time quantum
             currentThread.start();
@@ -273,6 +277,11 @@ public class SchedulerSimulation {
                 }
             }
         }
+
+        // Display the total number of CPU dispatches during the simulation
+        System.out.println(Colors.BRIGHT_CYAN + "Total Context Switches: " +
+                          contextSwitchCount + Colors.RESET);
+        System.out.println();
         
         // End of the scheduler simulation
         System.out.println(Colors.BOLD + Colors.BRIGHT_GREEN + 
