@@ -129,16 +129,19 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [October 3, 2026, 7:00 PM]
+**What I did**: Created and set up my GitHub repository.
 
 **Details**:
+- Created my repository from the assignment starter project.
+- Set up the project so I could start working on the Java code.
+- Prepared the repository for saving my changes using Git commits.
 
-**Challenges**:
+**Challenges**: I was not very familiar with forking a repository and using Git commits.
 
-**Solution**:
+**Solution**:I followed the instructions step by step and watch a tutorial video on youtYouTube and learned how to make changes, commit them, and push them to GitHub.
 
-**Time spent**:
+**Time spent**: 40 minutes
 
 ---
 
