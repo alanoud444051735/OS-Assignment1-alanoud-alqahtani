@@ -145,16 +145,20 @@
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 2 - [October 4, 2026, 7:30 PM]
+**What I did**: Worked on process priority.
 
 **Details**:
+- Added a priority variable to the Process class.
+- Used a random number between 1 and 10 for each process.
+- Updated the output to show the priority when a process enters the ready queue.
+- Kept the scheduling order unchanged because priority is only displayed.
 
-**Challenges**:
+**Challenges**: I was not sure where to add the priority variable and how to display it without changing the scheduling order.
 
-**Solution**:
+**Solution**:I added the priority to the Process class and displayed it when the process entered the ready queue. I kept the FIFO scheduling unchanged.
 
-**Time spent**:
+**Time spent**: 70 minutes
 
 ---
 
