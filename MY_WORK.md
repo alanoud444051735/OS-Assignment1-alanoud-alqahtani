@@ -162,16 +162,19 @@
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 3 - [October 6, 2026, 7:30 PM]
+**What I did**: Added the context switch counter.
 
 **Details**:
+- Added a static variable to count context switches.
+- Increased the counter whenever the scheduler started a thread for CPU execution.
+- Added a message at the end of the simulation to show the total count
 
-**Challenges**:
+**Challenges**: At first, I was confused about where to increase the counter because the same process can run more than once.
 
-**Solution**:
+**Solution**: I reviewed the scheduler loop and added the counter before currentThread.start() so it increases whenever a thread starts running.
 
-**Time spent**:
+**Time spent**: 60 miunutes
 
 ---
 
