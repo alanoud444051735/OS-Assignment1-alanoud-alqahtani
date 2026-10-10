@@ -178,18 +178,23 @@
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**:
+### Entry 4 - [October 7, 2026, 7:30 PM]
+**What I did**: Implemented waiting-time and turnaround-time tracking.
 
 **Details**:
+- Added variables to store the waiting time for each process.
+- Used System.currentTimeMillis() to calculate how long each process waited in the ready queue.
+- Updated the waiting time whenever a process returned to the ready queue.
+- Calculated turnaround time by adding waiting time and burst time.
+- Added a table at the end of the simulation to display the results for all processes.
 
-**Challenges**:
+**Challenges**: Understanding how to calculate waiting time was difficult because a process can enter the ready queue multiple times.
 
-**Solution**:
+**Solution**: : I used System.currentTimeMillis() to record when a process entered and left the ready queue. I added the waiting periods together to calculate its total waiting time.
 
-**Time spent**:
+**Time spent**: 90 minutes
 
----
+——-
 
 ### Entry 5 - [Date and Time]
 **What I did**:
