@@ -31,7 +31,7 @@
 |-------|-------------|
 | **Full Name** | [alanoud alqahtani] |
 | **Student ID** | [444051735] |
-| **University Email** | [444051735@std.psau.edu.sa |
+| **University Email** | [444051735@std.psau.edu.sa] |
 | **GitHub Username** | [alanoud444051735] |
 | **Repository Link** | [ https://github.com/alanoud444051735/OS-Assignment1-alanoud-alqahtani] |
  
@@ -196,16 +196,22 @@
 
 ——-
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 5 - [October 8–10, 2026]
+**What I did**: Completed the assignment documentation and added my personal information and project links.
 
 **Details**:
+- Added my full name, student ID, and university email.
+-;Added my GitHub username and repository link.
+- Updated the development log with the dates and details of my work.
+- Answered the reflection and technical questions.
+- Added the video demonstration link.
+Reviewed the documentation and assignment requirements before submission.
 
-**Challenges**:
+**Challenges**: I found it difficult to explain some technical concepts in my own words and make sure all the required information was included.
 
-**Solution**:
+**Solution**: I reviewed the assignment instructions and Java code again. I used examples from my simulation to explain the concepts and checked the documentation to make sure I had completed the required sections.
 
-**Time spent**:
+**Time spent**: 90 minutes
 
 ---
 
